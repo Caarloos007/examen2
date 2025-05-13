@@ -1,0 +1,84 @@
+[
+    {
+        "nombre": "Tarea 1",
+        "prioridad": 1,
+        "fecha_vencimiento": "2025-05-20",
+        "dependencias": [],
+        "completada": true
+    },
+    {
+        "nombre": "Tarea 2",
+        "prioridad": 2,
+        "fecha_vencimiento": "2025-05-19",
+        "dependencias": [
+            "Tarea 1"
+        ],
+        "completada": true
+    },
+    {
+        "nombre": "comer",
+        "prioridad": 5,
+        "fecha_vencimiento": "2025-05-14",
+        "dependencias": [
+            "hacercomida",
+            "ponermesa"
+        ],
+        "completada": true
+    },
+    {
+        "nombre": "jugar",
+        "prioridad": 1,
+        "fecha_vencimiento": "2025-05-14",
+        "dependencias": [
+            "deberes",
+            "estudiar"
+        ],
+        "completada": true
+    },
+    {
+        "nombre": "jugar",
+        "prioridad": 2,
+        "fecha_vencimiento": "2025-05-15",
+        "dependencias": [
+            "estudiar"
+        ],
+        "completada": false
+    },
+    {
+        "nombre": "leer",
+        "prioridad": 1,
+        "fecha_vencimiento": "2025-05-16",
+        "dependencias": [],
+        "completada": true
+    },
+    {
+        "nombre": "estudiar",
+        "prioridad": 1,
+        "fecha_vencimiento": "2025-06-01",
+        "dependencias": [],
+        "completada": true
+    },
+    {
+        "nombre": "deberes",
+        "prioridad": 1,
+        "fecha_vencimiento": "2025-06-01",
+        "dependencias": [
+            "1"
+        ],
+        "completada": true
+    },
+    {
+        "nombre": "1",
+        "prioridad": 1,
+        "fecha_vencimiento": "2026-09-09",
+        "dependencias": [],
+        "completada": true
+    },
+    {
+        "nombre": "gimnasio",
+        "prioridad": 2,
+        "fecha_vencimiento": "2025-05-14",
+        "dependencias": [],
+        "completada": true
+    }
+]
